@@ -8,11 +8,11 @@
 ## Usage
 Process a single theme directory:
 
-`icewm_hover_final.sh ~/.icewm/themes/YourThemeWithNoHoverSupport`
+`icewm_hover.sh ~/.icewm/themes/YourThemeWithNoHoverSupport`
 
 Batch process all themes at once (while it is possible, avoid it if you are not sure how your individual themes handle hovering):
 
-`icewm_hover_final.sh ~/.icewm/themes/*`
+`icewm_hover.sh ~/.icewm/themes/*`
 
 The script will
 - Create `*O.xpm` (hover) images for every button that has an `*A.xpm` (active variant) file
